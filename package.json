@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "4.4.1",
     "next": "9.3.6",
     "next-pwa": "^2.3.3",
     "react": "16.13.1",
