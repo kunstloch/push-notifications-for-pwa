@@ -9,16 +9,110 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" /> */}
       </Nav>
 
-      <main>
-        <h1 className="title">
-          Das Funkt! <a href="https://nextjs.org">Next.js!</a>
+
+
+
+{/* --- Title --- */}
+
+      <main >
+        <h1 className="title display-1 text-center"  >
+          Das Funkt! 
         </h1>
         
       </main>
 
-      {/* -- Footer -- */}
+{/* --- Features --- */}
 
-      <footer id="footer" class="fixed-bottom bg-warning">
+<section id="features">
+
+<h3>Save Money and Time</h3>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+
+<h3>Improve Image</h3>
+<p>unt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+<h3>Avoid Errors </h3>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+
+<h3>Playful and Simple</h3>
+<p>no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+
+</section>
+
+{/* --- Testimonials --- */}
+
+<section id="testimonials">
+
+    <h2>I got the power! Not it is even better.</h2>
+    <img src="/person2.jpg" alt="testimonial photo" height="142" width="142"/>
+    <em>Mr. John Smith, Vienna</em>
+
+    <h2 class="testimonial-text">I think this is the best solution for me</h2>
+    <img class="testimonial-image" src="/person3.jpg" alt="testimonial photo" height="142" width="142" />
+    <em>Mrs. Jesicca Müller, Saalbach</em>
+
+  </section>
+
+{/* -- Press -- */}
+
+<section id="press">
+    <img src="/logo1.png" alt="logo Post-Herald" />
+    <img src="/logo2.png" alt="logo Fake-News" />
+    <img src="/logo3.jpg" alt="logo StartUp" />
+    <img src="/logo4.jpg" alt="logo MobileApp" />
+
+  </section>
+
+{/* -- Pricing -- */}
+
+<section id="pricing">
+
+<h2>A Plan for Every User</h2>
+<p>Simple and affordable price plans for your and your company.</p>
+
+
+<h3>1 to 50 employees</h3>
+<h2>Free</h2>
+<p>5 Matches Per Day</p>
+<p>10 Messages Per Day</p>
+<p>Unlimited App Usage</p>
+<button type="button">Sign Up</button>
+
+
+<h3>51 to 500 employees</h3>
+<h2>$49 / mo</h2>
+<p>Unlimited Matches</p>
+<p>Unlimited Messages</p>
+<p>Unlimited App Usage</p>
+<button type="button">Sign Up</button>
+
+
+<h3>501+ employees</h3>
+<h2>$99 / mo</h2>
+<p>Pirority Listing</p>
+<p>Unlimited Matches</p>
+<p>Unlimited Messages</p>
+<p>Unlimited App Usage</p>
+<button type="button">Sign Up</button>
+
+</section>
+
+
+{/* -- Pricing -- */}
+
+<section id="cta">
+
+<h3>
+Experience the future here and now</h3>
+<button type="button">Download</button>
+<button type="button">Download</button>
+
+</section>
+
+
+{/* -- Footer -- */}
+
+      <footer id="footer" class=" bg-warning">
         <p class="navbar-brand">
           Testing Push Notifications for PWA - Next.js, Bootstrap
         </p>
