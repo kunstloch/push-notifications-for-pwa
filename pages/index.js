@@ -14,12 +14,19 @@ export default function Home() {
 
 {/* --- Title --- */}
 
-      <main >
-        <h1 className="title display-1 text-center"  >
-          Das Funkt! 
-        </h1>
+<section id="title">
+  <div>
+      
+    <h1 className="title display-1 text-center"  >Das Funkt! </h1>
         
-      </main>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+  </div>
+
+  <div>
+      <img src="/mobileApp.png" alt="iphone-mockup" />
+  </div>
+</section>
 
 {/* --- Features --- */}
 
