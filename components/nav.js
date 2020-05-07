@@ -21,6 +21,8 @@ const Nav = () => (
       <meta name='keywords' content='Keywords' />
       <title>Next.js PWA Example</title>
 
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
       {/* <link rel="stylesheet" href="css/styles.css" /> */}
       <link rel='manifest' href='/manifest.json' />
@@ -36,16 +38,16 @@ const Nav = () => (
 
     </Head>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-        <a class="navbar-brand" href="">nasenbär</a>
+    <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
+        <a class="navbar-brand" href="">fakeApp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"> <a class="nav-link" href="">Contact</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Pricing</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Download</a></li>
+                <li class="nav-item "> <a class="nav-link" href="">Contact</a></li>
+                <li class="nav-item "> <a class="nav-link" href="">Pricing</a></li>
+                <li class="nav-item "> <a class="nav-link" href="">Download</a></li>
             </ul>
         </div>
     </nav>
