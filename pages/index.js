@@ -41,17 +41,33 @@ export default function Home () {
 
       <section id="features">
 
-        <h3>Save Money and Time</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+      <div class="row">
 
-        <h3>Improve Image</h3>
-        <p>unt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-check-circle fa-4x icon" />
+          <h3> Save Money & Time</h3>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+        </div>
 
-        <h3>Avoid Errors </h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-heart fa-4x icon" /> 
+          <h3>Improve Image</h3>
+          <p>unt ut labore et dolore magna aliquyam erat.</p>
+        </div>
 
-        <h3>Playful and Simple</h3>
-        <p>no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-bullseye fa-4x icon" />
+          <h3>Avoid Errors </h3>
+          <p>Lorem ipsum dolor sit amet, consetetur.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-carrot fa-4x icon" />
+          <h3>Playful & Simple</h3>
+          <p>no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+        </div>
+
+      </div>
 
       </section>
 

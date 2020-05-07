@@ -25,7 +25,7 @@ const Nav = () => (
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
 
       {/* --- Font Awesome --- */}
-      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
 
       {/* --- Bootstrap CSS --- */}
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
