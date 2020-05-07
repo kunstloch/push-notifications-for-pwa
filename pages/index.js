@@ -25,8 +25,8 @@ export default function Home () {
           <div class="row">
             <div class="col-lg-6">
               <h1 class="text-white">Start this wonderful app just now.</h1>
-              <button  type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple" /> Download</button>
-              <button type="button"  class="btn btn-light btn-lg download-button"><span class="fab fa-google-play" /> Download</button>
+              <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple" /> Download</button>
+              <button type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play" /> Download</button>
             </div>
 
             <div class="col-lg-6">
@@ -41,33 +41,33 @@ export default function Home () {
 
       <section id="features">
 
-      <div class="row">
+        <div class="row">
 
-        <div class="feature-box col-lg-3">
-          <span class="fas fa-check-circle fa-4x icon" />
-          <h3> Save Money & Time</h3>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+          <div class="feature-box col-lg-3">
+            <span class="fas fa-check-circle fa-4x icon" />
+            <h3> Save Money & Time</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+          </div>
+
+          <div class="feature-box col-lg-3">
+            <span class="fas fa-heart fa-4x icon" />
+            <h3>Improve Image</h3>
+            <p>unt ut labore et dolore magna aliquyam erat.</p>
+          </div>
+
+          <div class="feature-box col-lg-3">
+            <span class="fas fa-bullseye fa-4x icon" />
+            <h3>Avoid Errors </h3>
+            <p>Lorem ipsum dolor sit amet, consetetur.</p>
+          </div>
+
+          <div class="feature-box col-lg-3">
+            <span class="fas fa-carrot fa-4x icon" />
+            <h3>Playful & Simple</h3>
+            <p>no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+          </div>
+
         </div>
-
-        <div class="feature-box col-lg-3">
-          <span class="fas fa-heart fa-4x icon" /> 
-          <h3>Improve Image</h3>
-          <p>unt ut labore et dolore magna aliquyam erat.</p>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <span class="fas fa-bullseye fa-4x icon" />
-          <h3>Avoid Errors </h3>
-          <p>Lorem ipsum dolor sit amet, consetetur.</p>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <span class="fas fa-carrot fa-4x icon" />
-          <h3>Playful & Simple</h3>
-          <p>no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
-        </div>
-
-      </div>
 
       </section>
 
@@ -75,23 +75,44 @@ export default function Home () {
 
       <section id="testimonials">
 
-        <h2>I got the power! Not it is even better.</h2>
-        <img src="/person2.jpg" alt="testimonial photo" height="142" width="142" />
-        <em>Mr. John Smith, Vienna</em>
-
-        <h2 class="testimonial-text">I think this is the best solution for me</h2>
-        <img class="testimonial-image" src="/person3.jpg" alt="testimonial photo" height="142" width="142" />
-        <em>Mrs. Jesicca Müller, Saalbach</em>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>I got the power! Now it is even better.</h2>
+              <img class="testimonial-image" src="/person2.jpg" alt="testimonial photo" />
+              <em>Mr. John Smith, Vienna</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">I think this is the best solution for me. I tried many other Apps,
+I swear this is the best thing that could have happened to me. </h2>
+              <img class="testimonial-image" src="/person3.jpg" alt="testimonial photo" />
+              <em>Mrs. Jesicca Müller, Saalbach</em>
+            </div>
+            <div class="carousel-item">
+              <h2>How could I handle my stuff before? I just dont remember. And I dont want to.</h2>
+              <img class="testimonial-image" src="/person1.jpg" alt="testimonial photo" />
+              <em>Mr. Pedro Gonzales, Hintertupfing</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
 
       </section>
 
       {/* -- Press -- */}
 
       <section id="press">
-        <img src="/logo1.png" alt="logo Post-Herald" />
-        <img src="/logo2.png" alt="logo Fake-News" />
-        <img src="/logo3.jpg" alt="logo StartUp" />
-        <img src="/logo4.jpg" alt="logo MobileApp" />
+        <img class="press-logo" src="/logo1.png" alt="logo Post-Herald" />
+        <img class="press-logo" src="/logo2.png" alt="logo Fake-News" />
+        <img class="press-logo" src="/logo3.jpg" alt="logo StartUp" />
+        <img class="press-logo" src="/logo4.jpg" alt="logo MobileApp" />
 
       </section>
 
@@ -142,26 +163,32 @@ export default function Home () {
       </section>
 
 
-      {/* -- Footer -- */}
+      {/* -- Impressum -- */}
 
-      <footer id="footer" class="bg-warning">
-        <p class="navbar-brand">
-          Testing Push Notifications for PWA - Next.js, Bootstrap
-        </p>
-        <p>
-          Impressum: Alexander Scherer-Sokolowski | Tel: +43 664 7501 8228 <br />
+
+      <section id="impressum">
+
+        <footer>
+          
+            <div class="row">
+
+              <img class="col-lg-2 mr-0 impressum-image" src="/AlexScherer.jpg" alt="Picture Alexander Scherer" />
+
+
+              <div class="col-lg-6 mr-0">
+                <h5 >Testing Push Notifications for PWA - Next.js, Bootstrap</h5>
+                <p>
+                  Impressum: Alexander Scherer-Sokolowski | Tel: +43 664 7501 8228 <br />
         Schulstrasse 1 - 7304 Grosswarasdorf - Österreich
         </p>
-        <p>
-          <a
-            href="https://alexscherer.dev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            www.alexscherer.dev
-          </a>
-        </p>
-      </footer>
+                <a href="https://alexscherer.dev/" class="stretched-link" target="_blank"
+                  rel="noopener noreferrer">www.alexscherer.dev</a>
+              </div>
+            </div>
+          
+        </footer>
+
+      </section>
 
       {/* <style jsx>{`
         
