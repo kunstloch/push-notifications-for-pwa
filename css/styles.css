@@ -137,25 +137,18 @@ p {
 
 /* Impressum Section */
 
-/* #impressum {
+#impressum {
   background-color: #ffd700;
-  color: #fff;
-  text-align: center;
   padding: 4% 7%;
-}
-
-footer > p {
-  color: #000;
-  text-align: right;
+  text-align: center;
 }
 
 .impressum-image {
-  width: 30%;
+  width: 60%;
   border-radius: 100%;
-  margin: 20px;
-  text-align: right;
+  padding: 7%;
 }
 
 .impressum-section {
   text-align: right;
-} */
+}

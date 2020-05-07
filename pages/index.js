@@ -83,8 +83,7 @@ export default function Home () {
               <em>Mr. John Smith, Vienna</em>
             </div>
             <div class="carousel-item">
-              <h2 class="testimonial-text">I think this is the best solution for me. I tried many other Apps,
-I swear this is the best thing that could have happened to me. </h2>
+              <h2 class="testimonial-text">I think this is the best solution for me.</h2>
               <img class="testimonial-image" src="/person3.jpg" alt="testimonial photo" />
               <em>Mrs. Jesicca Müller, Saalbach</em>
             </div>
@@ -123,7 +122,52 @@ I swear this is the best thing that could have happened to me. </h2>
         <h2>A Plan for Every User</h2>
         <p>Simple and affordable price plans for your and your company.</p>
 
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <h3>1 to 50 employees</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button">Sign Up</button>
+            </div>
+          </div>
 
+          <div class="card">
+            <div class="card-header">
+              <h3>51 to 500 employees</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button">Sign Up</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3>501+ employees</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        {/* 
         <h3>1 to 50 employees</h3>
         <h2>Free</h2>
         <p>5 Matches Per Day</p>
@@ -146,7 +190,7 @@ I swear this is the best thing that could have happened to me. </h2>
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
         <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
+        <button type="button">Sign Up</button> */}
 
       </section>
 
@@ -169,23 +213,27 @@ I swear this is the best thing that could have happened to me. </h2>
       <section id="impressum">
 
         <footer>
-          
-            <div class="row">
 
-              <img class="col-lg-2 mr-0 impressum-image" src="/AlexScherer.jpg" alt="Picture Alexander Scherer" />
+          <div class="row">
 
-
-              <div class="col-lg-6 mr-0">
-                <h5 >Testing Push Notifications for PWA - Next.js, Bootstrap</h5>
-                <p>
-                  Impressum: Alexander Scherer-Sokolowski | Tel: +43 664 7501 8228 <br />
-        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich
-        </p>
-                <a href="https://alexscherer.dev/" class="stretched-link" target="_blank"
-                  rel="noopener noreferrer">www.alexscherer.dev</a>
-              </div>
+            <div class="col-lg-6 col-md-7 text-left">
+              <h5 >Testing Push Notifications for PWA <br /> Next.js, Bootstrap</h5>
+              <p>
+                Impressum: Alexander Scherer-Sokolowski <br /> Tel: +43 664 7501 8228 <br />
+        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich</p>
+              <a href="https://alexscherer.dev/" target="_blank"
+                rel="noopener noreferrer">www.alexscherer.dev</a>
             </div>
-          
+
+            <div class="col-lg-3 col-md-1">
+            </div>
+
+            <div class="col-lg-3 col-md-4 text-sm-center" >
+              <img class="impressum-image text-sm-center" src="/AlexScherer.jpg" alt="Picture Alexander Scherer" />
+            </div>
+
+          </div>
+
         </footer>
 
       </section>
