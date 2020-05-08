@@ -2,50 +2,51 @@
 
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6 {    
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+p {
+  color: #4C4C4C;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
 
 #title {
   background-color: #ffd700;
   color: #fff;
+  text-align: left;
 }
 
 .container-fluid {
   padding: 3% 15% 7%;
 }
 
-h1 {    
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat';
-  font-weight: 700;
-
-}
-
-h5 {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  color: #8f8f8f;
-}
-
-p {
-  color: #8f8f8f;
-}
-
 /* Navigation Bar */
 
 .navbar {
   padding: 0 0 4.5rem;
+}
+
+.navigation-list {
+  text-align: right;
 }
 
 .navbar-brand {
@@ -89,8 +90,11 @@ p {
   position: relative;
 }
 
+.feature-heading {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 3%;
 }
 
@@ -106,9 +110,13 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #D21437;
   color: #fff;
+}
+
+.testimonal-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -125,7 +133,6 @@ p {
 
 #press {
   background-color: #D21437;
-  text-align: center;
   padding: 3%;
 }
 
@@ -139,8 +146,12 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
   
+}
+
+.prising-heading {
+  line-height: 1.5;
+  font-size: 3rem;
 }
 
 /* .pricing-container {
@@ -157,25 +168,19 @@ p {
 
 #cta {
   background-color: #D21437;
-  text-align: center; 
   color: #fff;
   padding: 7% 15% 10%; 
 }
-
-.cta-font {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
 
 /* Impressum Section */
 
 #impressum {
   background-color: #ffd700;
-  padding: 4% 7%;
-  text-align: center; 
+  padding: 4% 5% 2%;
+}
+
+.impressum-heading {
+ color: #333333;
 }
 
 .impressum-image {
