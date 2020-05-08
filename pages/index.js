@@ -15,7 +15,7 @@ export default function Home () {
     if (result === 'granted') {
       const noti = new Notification('Hello!', {
         body: 'Vielen Dank für Ihren Besuch!',
-        icon: 'ASround.png'
+        icon: 'as_face.png'
       });
       noti.onclick = () => alert('clicked');
     }
