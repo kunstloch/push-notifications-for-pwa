@@ -12,7 +12,7 @@ export default function Impressum () {
           <div class="col-lg-6 col-md-7 text-left">
             <h5 class="impressum-heading">Testing Push Notifications for PWA <br /> Next.js, Bootstrap</h5>
             <p>
-              Impressum: Alexander Scherer-Sokolowski <br /> <i class="fas fa-phone"></i> - +43 664 7501 8228 <br />
+              Impressum: Alexander Scherer-Sokolowski <br /> <i class="fas fa-phone"></i> +43 664 7501 8228 <br />
               <i class="fas fa-map-marker-alt" /> Schulstrasse 1 -  7304 Grosswarasdorf - Österreich</p>
             <a href="https://alexscherer.dev/" target="_blank"
               rel="noopener noreferrer">www.alexscherer.dev</a>
