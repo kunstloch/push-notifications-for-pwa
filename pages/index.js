@@ -10,6 +10,18 @@ import Impressum from '../components/impressum';
 
 
 export default function Home () {
+  async function showNotification() {
+    const result = await Notification.requestPermission();
+    if (result === 'granted') {
+      const noti = new Notification('Hello!', {
+        body: 'Vielen Dank für Ihren Besuch!',
+        icon: 'ASround.png'
+      });
+      noti.onclick = () => alert('clicked');
+    }
+  }
+  showNotification();
+
   return (
     <>
       <Title />
