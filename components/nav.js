@@ -51,9 +51,9 @@ const Nav = () => (
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item "> <a class="nav-link" href="">Contact</a></li>
-                <li class="nav-item "> <a class="nav-link" href="">Pricing</a></li>
-                <li class="nav-item "> <a class="nav-link" href="">Download</a></li>
+                <li class="nav-item "> <a class="nav-link" href="#impressum">Contact</a></li>
+                <li class="nav-item "> <a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-item "> <a class="nav-link" href="#cta">Download</a></li>
             </ul>
         </div>
     </nav>

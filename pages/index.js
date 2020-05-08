@@ -24,7 +24,7 @@ export default function Home () {
 
           <div class="row">
             <div class="col-lg-6">
-              <h1 class="text-white">Start this wonderful app just now.</h1>
+              <h1 class="text-white">Start a new life with this app just now.</h1>
               <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple" /> Download</button>
               <button type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play" /> Download</button>
             </div>
@@ -88,7 +88,7 @@ export default function Home () {
               <em>Mrs. Jesicca Müller, Saalbach</em>
             </div>
             <div class="carousel-item">
-              <h2>How could I handle my stuff before? I just dont remember. And I dont want to.</h2>
+              <h2>How could I handle my stuff before?</h2>
               <img class="testimonial-image" src="/person1.jpg" alt="testimonial photo" />
               <em>Mr. Pedro Gonzales, Hintertupfing</em>
             </div>
@@ -122,87 +122,68 @@ export default function Home () {
         <h2>A Plan for Every User</h2>
         <p>Simple and affordable price plans for your and your company.</p>
 
-        <div class="card-deck">
-          <div class="card">
-            <div class="card-header">
-              <h3>1 to 50 employees</h3>
-            </div>
-            <div class="card-body">
-              <h2>Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
-            </div>
-          </div>
+        <div class="container">
+          <div class="row pricing-container">
 
-          <div class="card">
-            <div class="card-header">
-              <h3>51 to 500 employees</h3>
+            <div class="pricing-column col-lg-4 col-md-6">
+              <div class="card h-100">
+                <div class="card-header">
+                  <h3>1 to 50 employees</h3>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h2>Free</h2>
+                  <p>5 Free Prays</p>
+                  <p>10 Messages Per Day</p>
+                  <p>Unlimited App Usage</p>
+                  <button type="button" class="btn btn-lg btn-block btn-outline-dark mt-auto">Sign Up</button>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h2>$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-header">
-              <h3>501+ employees</h3>
+            <div class="pricing-column col-lg-4 col-md-6">
+              <div class="card h-100">
+                <div class="card-header">
+                  <h3>51 to 500 employees</h3>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h2>$49 / mo</h2>
+                  <p>Unlimited Free Prays</p>
+                  <p>Unlimited Messages</p>
+                  <p>Unlimited App Usage</p>
+                  <button type="button" class="btn btn-lg btn-block btn-dark mt-auto">Sign Up</button>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h2>$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+
+            <div class="pricing-column col-lg-4">
+              <div class="card h-100">
+                <div class="card-header">
+                  <h3>501+ employees</h3>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h2>$99 / mo</h2>
+                  <p>Pirority Listing</p>
+                  <p>Unlimited Free Prays</p>
+                  <p>Unlimited Messages</p>
+                  <p>Unlimited App Usage</p>
+                  <button type="button" class="btn btn-lg btn-block btn-dark mt-auto">Sign Up</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-
-
-
-        {/* 
-        <h3>1 to 50 employees</h3>
-        <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-
-
-        <h3>51 to 500 employees</h3>
-        <h2>$49 / mo</h2>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-
-
-        <h3>501+ employees</h3>
-        <h2>$99 / mo</h2>
-        <p>Pirority Listing</p>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button> */}
-
       </section>
 
 
-      {/* -- Pricing -- */}
+      {/* -- Call to Action -- */}
 
       <section id="cta">
 
-        <h3>
-          Experience the future here and now</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <h3 class="cta-font">
+          Experience the future here and now with one month free trial!</h3>
+          <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple" /> Download</button>
+          <button type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play" /> Download</button>
 
       </section>
 
@@ -219,10 +200,11 @@ export default function Home () {
             <div class="col-lg-6 col-md-7 text-left">
               <h5 >Testing Push Notifications for PWA <br /> Next.js, Bootstrap</h5>
               <p>
-                Impressum: Alexander Scherer-Sokolowski <br /> Tel: +43 664 7501 8228 <br />
-        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich</p>
+                Impressum: Alexander Scherer-Sokolowski <br /> <i class="fas fa-phone"></i> - +43 664 7501 8228 <br />
+                <i class="fas fa-map-marker-alt" /> Schulstrasse 1 -  7304 Grosswarasdorf - Österreich</p>
               <a href="https://alexscherer.dev/" target="_blank"
                 rel="noopener noreferrer">www.alexscherer.dev</a>
+                
             </div>
 
             <div class="col-lg-3 col-md-1">
