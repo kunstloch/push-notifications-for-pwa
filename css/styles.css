@@ -213,3 +213,10 @@ p {
   }
 }
 
+
+/* AndroidComponent */
+
+.image-android {
+  width: 200px; 
+  height: 250px;
+}
