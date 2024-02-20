@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "bootstrap": "5.0.1",
+    "bootstrap": "5.3.3",
     "express": "4.17.1",
     "next": "10.2.3",
     "next-pwa": "5.2.21",
